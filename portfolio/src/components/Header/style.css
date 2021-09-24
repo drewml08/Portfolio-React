@@ -1,14 +1,40 @@
 .header {
     min-height: 200px;
-    background: #c0b514;
+    background: #5BB66F;
     position: relative;
+    color: #fff;
   }
   
-  .header span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 3px;
-    background: #c0b514;
+  .header .profile-container {
+    width: 240px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+  
   }
+
+  .header .profile {
+   width: 180px;
+   height: 180px;
+  }
+
+
+  .header .name {
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .header .tagline {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+
+
+
