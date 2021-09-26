@@ -1,39 +1,25 @@
-.header {
-    min-height: 200px;
-    background: #5BB66F;
-    position: relative;
-    color: #fff;
-  }
-  
-  .header .profile-container {
-    width: 240px;
-    padding: 30px;
-    background: rgba(0, 0, 0, 0.2);
-    text-align: center;
-    color: #fff;
-  
-  }
+header {
+    background: #5bb66f;
+}
 
-  .header .profile {
-   width: 180px;
-   height: 180px;
-  }
+header .nav-icon {
+    fill: currentColor;
+} 
 
-
-  .header .name {
+.name {
     font-size: 32px;
     font-weight: 900;
     margin-top: 0;
     margin-bottom: 10px;
-  }
-  
-  .header .tagline {
+}
+
+.tagline {
     color: rgba(255, 255, 255, 0.6);
     font-size: 16px;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 0;
-  }
+}
 
 
 

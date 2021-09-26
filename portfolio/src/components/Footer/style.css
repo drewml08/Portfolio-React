@@ -1,16 +1,30 @@
-.footer {
-    min-height: 100px;
-    background: #c0b514;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  .footer span {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 3px;
-    background: #c0b514;
-  }
+footer {
+    background: #5bb66f;
+}
+
+footer ul li svg {
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #25532f;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+.contact-container
+{
+    height: 40px;
+}

@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+
+main {
+    width: 85%;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 145px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icon-holder {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+    display: inline-block;
+    color: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #3d884d;
+    text-align: center;
+    position: relative;
+    top: -4px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icon-holder svg {
+    vertical-align: middle;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.professional-section .item {
+  margin-bottom: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.professional-section .upper-row {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.professional-section .job-title {
+  color: #3F4650;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.professional-section .time {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #97AAC3;
+}
+
+.professional-section .company {
+  margin-bottom: 10px;
+  color: #97AAC3;
+}
+
+.education-container .item {
+  margin-bottom: 15px;
+}
+
+.education-container .item:last-child {
+  margin-bottom: 0;
+}
+
+.education-container .meta {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 0;
+ /* font-size: 14px; */
+}
+
+.education-container .time {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.skillset {
+    width: 65%;
+    margin: auto;
+    margin-top: 55px;
+}
+
+.skillset .item {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.skillset .level-title {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.skillset .level-bar {
+  height: 22px;
+  background: #f5f5f5;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+.skillset .theme-progress-bar {
+  background: #7ec68e;
+}
+
+@media (min-width: 992px) {
+  .skillset .level-title {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin-bottom: 0;
   }
 }
