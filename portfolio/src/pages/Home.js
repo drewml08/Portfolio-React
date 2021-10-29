@@ -1,7 +1,8 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faBriefcase, faRocket, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faBriefcase, faRocket, faGraduationCap, faDatabase } from '@fortawesome/free-solid-svg-icons';
+import { faBootstrap, faCss3, faGithub, faHtml5, faJs, faNodeJs, faReact } from "@fortawesome/free-brands-svg-icons";
 
 const Home = () => {
   return (
@@ -71,56 +72,54 @@ const Home = () => {
         <Row>
             <Col size="md-12">
                 <h2 className="pt-5 section-title"><span className="icon-holder"><FontAwesomeIcon icon={faRocket} /></span>Skills &amp; Proficiency</h2>
-                <div className="skillset">        
-                    <div className="item">
-                        <h3 className="level-title">Git &amp; GitHub</h3>
-                        <div className="progress level-bar">
-                            <div className="progress-bar theme-progress-bar" role="progressbar" style={{width:'90%'}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>                              
-                    </div>
+                <Container className="skillset">   
+                    <Row>
+                        <Col size="md-6">
+                            <div className="item">
+                                <h3 className="level-title"><FontAwesomeIcon className = "skillset-icon" icon={faGithub} />Git &amp; GitHub</h3>                            
+                            </div>
 
-                    <div className="item">
-                        <h3 className="level-title">Javascript &amp; jQuery</h3>
-                        <div className="progress level-bar">
-                            <div className="progress-bar theme-progress-bar" role="progressbar" style={{width:'65%'}} aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>                              
-                    </div>
+                            <div className="item">
+                                <h3 className="level-title"><FontAwesomeIcon className = "skillset-icon" icon={faJs} />Javascript &amp; jQuery</h3>
+                                    
+                            </div>
+                            
+                            <div className="item">
+                                <h3 className="level-title"><FontAwesomeIcon className = "skillset-icon" icon={faHtml5} />HTML5</h3>
+                                                        
+                            </div>
+
+                            <div className="item">
+                                <h3 className="level-title"><FontAwesomeIcon className = "skillset-icon" icon={faCss3} />CSS</h3>
+                                                        
+                            </div>
+                        </Col>
+                        <Col size="md-6">
+                            
+                            <div className="item">
+                                <h3 className="level-title"><FontAwesomeIcon className = "skillset-icon" icon={faBootstrap} />Bootstrap</h3>
+                                                        
+                            </div>
+                            
+                            <div className="item">
+                                <h3 className="level-title"><FontAwesomeIcon className = "skillset-icon" icon={faNodeJs} />NodeJS</h3>
+                                                            
+                            </div>
+
+                            <div className="item">
+                                <h3 className="level-title"><FontAwesomeIcon className = "skillset-icon" icon={faDatabase} />MySQL</h3>
+                                                            
+                            </div>
+
+                            <div className="item">
+                                <h3 className="level-title"><FontAwesomeIcon className = "skillset-icon" icon={faReact} />React</h3>
+                                                        
+                            </div>
+                        </Col> 
+                    </Row>     
                     
-                    <div className="item">
-                        <h3 className="level-title">HTML5 &amp; CSS</h3>
-                        <div className="progress level-bar">
-                                <div className="progress-bar theme-progress-bar" role="progressbar" style={{width:'70%'}} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>                                
-                    </div>
 
-                    <div className="item">
-                        <h3 className="level-title">Bootstrap</h3>
-                        <div className="progress level-bar">
-                                <div className="progress-bar theme-progress-bar" role="progressbar" style={{width:'50%'}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>                                
-                    </div>
-                    
-                    <div className="item">
-                        <h3 className="level-title">NodeJS</h3>
-                        <div className="progress level-bar">
-                            <div className="progress-bar theme-progress-bar" role="progressbar" style={{width:'65%'}} aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>                                  
-                    </div>
-
-                    <div className="item">
-                        <h3 className="level-title">MySQL</h3>
-                        <div className="progress level-bar">
-                            <div className="progress-bar theme-progress-bar" role="progressbar" style={{width:'50%'}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>                                  
-                    </div>
-
-                    <div className="item">
-                        <h3 className="level-title">React</h3>
-                        <div className="progress level-bar">
-                            <div className="progress-bar theme-progress-bar" role="progressbar" style={{width:'25%'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>                                  
-                    </div>
-                </div>  
+                </Container>  
             </Col>
         </Row>
   </Container>
