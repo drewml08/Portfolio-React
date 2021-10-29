@@ -22,7 +22,7 @@ function Header() {
         <div className="px-3 py-2 text-white">
             <div className="container">
                 <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                    <a href="/" className="d-flex align-items-center text-decoration-none">
+                    <a onClick={goToHome} href="#" className="d-flex align-items-center text-decoration-none">
                         <img src={profileImage} width="95" height="95"></img>
                     </a>
                     <div className="my-2 my-lg-0 me-lg-auto ps-4">
